@@ -1,0 +1,42 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 8px 12px; 
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s; 
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+mat-icon {
+    margin-right: 5px;
+}
